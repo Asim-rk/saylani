@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+
+
+#head {
+  height: 90%;
+}
+
+#services img {
+  width: 100px;
+  margin: 8px;
+
+}
+
+button {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.scroll {
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}

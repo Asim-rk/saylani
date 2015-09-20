@@ -1,0 +1,42 @@
+<ion-view>
+  <ion-content >
+
+
+
+    <form ng-submit="save(user)">
+      <div>
+        <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+        <img ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+        <button class="button" ng-click="takePicture()">Take Picture</button>
+      </div>
+
+    <label class="item item-input">
+    <span class="input-label">Username</span>
+    <input type="text" ng-model="user.name">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Address</span>
+      <input type="text" ng-model="user.address">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Parts</span>
+      <input type="text" ng-model="user.parts">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Telephone</span>
+      <input type="tel" ng-model="user.tel">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Date</span>
+      <input type="date" ng-model="user.date">
+    </label>
+
+      <div class="padding">
+        <button type="submit" class="button ">SUBMIT</button>
+      </div>
+    </form>
+
+  </ion-content>
+
+
+</ion-view>
